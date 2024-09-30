@@ -4,7 +4,6 @@ uma pessoa e depois mostrar na tela a classificação desta glicose
 de acordo com a tabela de referência ao lado.
 '''
 
-glicose: float
 
 glicose = float(input("Digite a medida da glicose: "))
 
