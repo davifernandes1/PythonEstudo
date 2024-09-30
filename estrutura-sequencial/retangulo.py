@@ -5,8 +5,6 @@ Em seguida, mostrar o valor da área, perímetro e diagonal deste retângulo,
 com quatro casas decimais.
 '''
 
-base: float; altura: float; area: float; perimetro: float; diagonal: float
-
 base = float(input("Base do retangulo: "))
 altura = float(input("Altura do retangulo: "))
 
