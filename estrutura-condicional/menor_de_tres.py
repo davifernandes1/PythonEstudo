@@ -4,18 +4,16 @@ Em seguida, mostrar qual o menor dentre os três números lidos.
 Em caso de empate, mostrar apenas uma vez.
 '''
 
-a: int; b: int; c: int; menor: int
+numero1 = int(input("Digite o primeiro numero: "))
+numero2 = int(input("Digite o segundo numero: "))
+numero3 = int(input("Digite o terceiro numero: "))
 
-a = int(input("Primeiro valor: "))
-b = int(input("Segundo valor: "))
-c = int(input("Terceiro valor: "))
-
-if a < b and a < c:
-	menor = a
-elif b < c:
-	menor = b
+if (numero1 < numero2) and (numero1 < numero3):
+  menor = numero1
+elif numero2 < numero3:
+   menor = numero2
 else:
-	menor = c
+    menor = numero3
 
-print(f"MENOR = {menor}")
+print(menor)
 
