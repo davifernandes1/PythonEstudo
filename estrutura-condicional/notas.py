@@ -5,8 +5,6 @@ semestres de uma disciplina anual. Em seguida, mostrar a nota final que o aluno 
 do aluno seja inferior a 60.00, mostrar a mensagem "REPROVADO".
 '''
 
-nota1: float; nota2: float; nota_final: float
-
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
 
