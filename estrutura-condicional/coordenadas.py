@@ -5,8 +5,6 @@ Se o ponto estiver na origem, escreva a mensagem “Origem”. Se o ponto estive
 um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
 '''
 
-x: float; y: float;
-
 x = float(input("Valor de X: "))
 y = float(input("Valor de Y: "))
 
