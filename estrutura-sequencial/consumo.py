@@ -4,7 +4,7 @@ bem como o total de combustível gasto por este carro ao percorrer tal distânci
 Seu programa deve mostrar o consumo médio do carro, com três casas decimais.
 '''
 
-distancia: float; combustivel: float; consumo: float
+
 
 distancia = float(input("Distancia percorrida: "))
 combustivel = float(input("Combustivel gasto: "))
