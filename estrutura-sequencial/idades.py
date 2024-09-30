@@ -4,10 +4,6 @@ Ao final mostrar uma mensagem com os nomes e a idade média
 entre essas pessoas, com uma casa decimal.
 '''
 
-nome1: str; nome2: str
-idade1: int; idade2: int
-media: float
-
 print("Dados da primeira pessoa:")
 nome1 = str(input("Nome: "))
 idade1 = int(input("Idade: "))
