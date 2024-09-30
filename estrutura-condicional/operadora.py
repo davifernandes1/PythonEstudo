@@ -5,9 +5,6 @@ custa R$ 2.00. Fazer um programa para ler a quantidade de minutos que uma
 pessoa consumiu, daí mostrar o valor a ser pago.
 '''
 
-minutos: int
-valor: float
-
 minutos = int(input("Digite a quantidade de minutos: "))
 
 if minutos <= 100:
