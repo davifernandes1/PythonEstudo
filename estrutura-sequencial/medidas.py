@@ -7,8 +7,6 @@ b) a área do triângulo retângulo que base A e altura B
 c) a área do trapézio que tem bases A e B, e altura C
 '''
 
-a: float; b: float; c: float; area_quadrado: float; area_triangulo: float; area_trapezio: float
-
 a = float(input("Digite a medida A: "))
 b = float(input("Digite a medida B: "))
 c = float(input("Digite a medida C: "))
