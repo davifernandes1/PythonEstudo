@@ -4,8 +4,6 @@ bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguid
 valor da área do terreno, bem como o valor do preço do terreno, ambos com duas casas decimais.
 '''
 
-largura: float; comprimento: float; metro_quadrado: float; area_terreno: float; preco_terreno: float
-
 largura = float(input("Digite a largura do comprimento: "))
 comprimento = float(input("Digite o comprimento do terreno: "))
 metro_quadrado = float(input("Digite o valor do metro quadrado: "))
