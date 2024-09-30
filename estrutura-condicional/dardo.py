@@ -1,23 +1,13 @@
-'''
-No arremesso de dardo, o atleta tem três chances para lançar
-o dardo à maior distância que conseguir. Você deve criar um
-programa para, dadas as medidas das três tentativas de
-lançamento, informar qual foi a maior.
-'''
+arremeso1 = float(input("Digite a distancia do primeiro arremeso: "))
+arremeso2 = float(input("Digite a distancia do segundo arremeso: "))
+arremeso3 = float(input("Digite a distancia do terceiro arremeso: "))
 
-distancia1: float; distancia2: float; distancia3: float; maior: float
-
-print("Digite as tres distancias:")
-distancia1 = float(input())
-distancia2 = float(input())
-distancia3 = float(input())
-
-if distancia1 > distancia2 and distancia1 > distancia3:
-	maior = distancia1
-elif distancia2 > distancia1 and distancia2 > distancia3:
-	maior = distancia2
+if (arremeso1 > arremeso2) and (arremeso1 > arremeso3):
+  maior = arremeso1
 else:
-	maior = distancia3
+  if (arremeso2 > arremeso1) and (arremeso2 > arremeso3):
+    maior = arremeso2
+  else:
+    maior = arremeso3
 
-print(f"MAIOR DISTANCIA = {maior:.2f}")
-
+print(maior)
