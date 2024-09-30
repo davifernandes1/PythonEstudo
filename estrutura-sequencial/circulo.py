@@ -5,7 +5,6 @@ de 𝜋 fornecido pela biblioteca da sua linguagem de programação, ou então, 
 o valor 3.14159
 '''
 
-r: float; area: float
 
 r = float(input("Digite o valor do raio do circulo: "))
 
