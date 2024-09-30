@@ -7,8 +7,6 @@ equação com quatro casas decimais, conforme exemplo. Se a equação não possu
 raízes reais, mostrar uma mensagem.
 '''
 
-a: float; b: float; c: float; X1: float; X2: float; delta: float
-
 a = float(input("Coeficiente a: "))
 b = float(input("Coeficiente b: "))
 c = float(input("Coeficiente c: "))
