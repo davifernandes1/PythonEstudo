@@ -5,13 +5,15 @@ e o valor em dinheiro dado pelo cliente (suponha que haja dinheiro suficiente). 
 mostrar o valor do troco a ser devolvido ao cliente.
 '''
 
-preco_unit: float; dinheiro_rec: float; troco: float
-qtd: int
+preco = float(input("Digite o preco unitario do produto: "))
+quantidade = int(input("Digite a quantidade de produtos: "))
+valor = float(input("Valor dado em dinheiro pelo cliente: "))
 
-preco_unit = float(input("Preco unitario do produto: "))
-qtd = int(input("Quantidade comprada: "))
-dinheiro_rec = float(input("Dinheiro recebido: "))
+if valor >= preco * quantidade:
+  troco = valor - preco * quantidade 
+  print(f"TROCO = {troco:.2f}")
+else: 
+  resto = valor - preco * quantidade
+  print(f"FALTOU = {resto:.2f}")
 
-troco = dinheiro_rec - (qtd * preco_unit)
 
-print(f"TROCO = {troco:.2f}")
