@@ -4,10 +4,6 @@ e a quantidade de horas trabalhadas por ele(a). Ao final, mostrar o valor do pag
 funcionário com uma mensagem explicativa.
 '''
 
-nome: str
-valor_hora: float; pagamento: float
-hora_trabalhada: int
-
 nome = str(input("Nome: "))
 valor_hora = float(input("Valor por hora: "))
 hora_trabalhada = int(input("Horas trabalhadas: "))
