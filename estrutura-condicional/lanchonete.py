@@ -12,23 +12,18 @@ Codigo e precos dos produtos:
 5 = R$ 7.32
 
 '''
+codigo = int(input("Digite o Codigo do produto comprado: "))
+quantidade = int(input("Digite a quantidade do produto comprado: "))
 
-codigo: int; qtd_comprada: int
-valor_pagar: float
-
-codigo = int(input("Codigo do produto comprado: "))
-qtd_comprada = int(input("Quantidade comprada: "))
-
-valor_pagar = 0
 if codigo == 1:
-    valor_pagar = qtd_comprada * 5.0
+  preco = 5.00 * quantidade
 elif codigo == 2:
-    valor_pagar = qtd_comprada * 3.5
+  preco = 3.50 * quantidade
 elif codigo == 3:
-    valor_pagar = qtd_comprada * 4.8
+  preco = 4.80 * quantidade
 elif codigo == 4:
-    valor_pagar = qtd_comprada * 8.90
+  preco = 8.90 * quantidade
 elif codigo == 5:
-    valor_pagar = qtd_comprada * 7.32
-
-print(f"Valor a pagar: R${valor_pagar:.2f}")
+  preco = 7.32 * quantidade
+  
+print(preco)
